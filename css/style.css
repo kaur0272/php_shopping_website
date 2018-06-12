@@ -1,0 +1,215 @@
+/*color scheme : paleturquoise :#AFEEEE, 	turquoise: #40E0D0, black:#000000*/
+* {
+    box-sizing: border-box;
+    
+}
+#boot-over {
+    font-size: 0.75rem; /*mobile view*/
+     line-height: 1.5;
+}
+
+#boot-over .jumbotron {
+    background-color: black ;
+    border-radius: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    line-height: 1.5;
+    
+    /*font-size: 1rem;*/
+    
+}
+figcaption{
+    border: 0.5px solid turquoise;
+    font-family: 'Raleway', sans-serif;
+    font-size:0.75rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+.nav-link{
+    color: black;
+    background-color: paleturquoise;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+.nav-link:hover{
+    color:black;
+    background-color: paleturquoise;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    background-color: paleturquoise;
+    font-family: 'Raleway', sans-serif;
+        
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:black;
+    background-color: paleturquoise;
+    font-family: 'Raleway', sans-serif;    
+}
+
+.lead a{
+background-color: paleturquoise;
+color: black;
+font-family: 'Raleway', sans-serif;
+}
+
+body{
+    line-height: 1.5;
+    /*font-size: 1rem;*/
+}
+
+#boot-over img {
+    width: 100%;
+    height: auto;
+        
+}
+
+h2{
+    text-align: center;
+    border: 2px solid turquoise;
+    margin-top: -32px;
+   background-color: turquoise;
+ font-family: 'Bitter', serif;
+     
+    
+}
+
+ul{ 
+    list-style-type: none;
+    line-height: 1.5;
+    
+    
+}
+li{
+    text-align: center;
+    /*font-size: 1rem;*/
+    line-height: 1.5;
+}
+
+#boot-over .footer{
+    background-color: black;
+    color :white;
+    
+}
+
+#boot-over .footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+#boot-over .copyright{
+    font-size: 0.75rem;
+    font-family: 'Bitter', serif;
+    line-height: 1.5;
+}
+#boot-over .social {
+    padding: 0;
+    font-family: 'Bitter', serif;
+    
+}
+
+#boot-over .social p{
+    text-align:left;
+     font-size: 0.75rem;
+    line-height: 1.5;
+    
+}
+
+#boot-over .social li {
+    display: block;
+    text-align: left;
+    padding: 20px;
+    font-size: 0.75rem;
+    color: black;
+    background-color: paleturquoise;
+    font-family: 'Raleway', sans-serif;
+    
+    } 
+
+#boot-over .social li a {
+        color:black ;
+    
+    } 
+/*tablet view*/
+@media all and (min-width: 767px) {
+    figcaption{
+    border: 0.5px solid turquoise;
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+}
+
+    
+    #boot-over {
+        font-size: 1rem;
+        
+    }
+    
+    #boot-over .footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+    
+    #boot-over .copyright{
+    font-size:1rem;
+        
+}
+        #boot-over .social {
+        list-style: none;
+    }
+    
+    #boot-over .social p{
+    text-align:left;
+     font-size: 1rem;
+}
+    
+    #boot-over .social li {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1rem;
+        
+    }
+    
+/*    .footer{
+        font-size: 1rem;
+}*/
+}
+/*desktop view*/
+@media (min-width: 1199px){
+    
+    figcaption{
+    border: 0.5px solid turquoise;
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+}
+    
+    #boot-over .footer{
+    color :white;
+
+}
+    #boot-over {
+        font-size: 1rem;
+    }
+    
+      #boot-over .social {
+        list-style: none;
+    }
+    
+    #boot-over .social p{
+    text-align:center;
+    padding-left:350px;
+     font-size: 1rem;
+}
+    
+    #boot-over .social li {
+        float: right;
+        display: inline-block;
+        padding-bottom:20px;
+        font-size: 1rem;
+        
+    }
+}
